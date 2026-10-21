@@ -1,6 +1,6 @@
 const mult = require('./mult');
 
-describe("Test mult", () => {
+describe("Test умножить", () => {
     test('Умножить 4 * 2 равно 8', () => {
         expect(mult(4, 2)).toBe(8);
     });
