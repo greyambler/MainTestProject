@@ -1,6 +1,6 @@
 function arithmeticMean(inputNumber) {
 
-    if (inputNumber !== null || Number.isNaN(1 - inputNumber)) {
+    if (inputNumber !== null) {
         let sum = 0;
         let count = 0;
 

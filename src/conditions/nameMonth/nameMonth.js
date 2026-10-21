@@ -16,7 +16,7 @@
 
 
 function nameMonth(inputNumber) {
-    if (inputNumber !== null || inputNumber < 13 || inputNumber > 0 || Number.isNaN(1 - inputNumber)) {
+    if (inputNumber !== null || inputNumber < 13 || inputNumber > 0) {
         switch (+inputNumber) {
             case 1: {
                 return "Январь";
