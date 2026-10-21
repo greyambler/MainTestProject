@@ -1,0 +1,16 @@
+{
+  "name": "maintestproject",
+  "version": "1.0.0",
+  "description": "Закрепление базового синтаксиса языка",
+  "main": "jest.config.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^30.5.2",
+    "jest-environment-jsdom": "^30.5.2"
+  }
+}
