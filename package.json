@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Закрепление базового синтаксиса языка",
   "main": "jest.config.js",
+  "type": "module",
   "scripts": {
     "test": "jest"
   },
