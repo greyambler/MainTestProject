@@ -6,3 +6,7 @@ test('Определяет более молодого пользователя 
 
     expect(whoIsYounger(BirthdayIvan, BirthdayVasay)).toBe("Wed Aug 17 1938");
 });
+
+test('Передаем не верное значение', () => {
+    expect(whoIsYounger(undefined, undefined)).toBeUndefined();
+});

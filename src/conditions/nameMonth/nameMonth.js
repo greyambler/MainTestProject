@@ -16,7 +16,7 @@
 
 
 function nameMonth(inputNumber) {
-    if (inputNumber !== null || inputNumber < 13 || inputNumber > 0) {
+    if (inputNumber !== null || inputNumber < 13 || inputNumber > 0 || typeof inputNumber === 'number') {
         switch (+inputNumber) {
             case 1: {
                 return "Январь";
