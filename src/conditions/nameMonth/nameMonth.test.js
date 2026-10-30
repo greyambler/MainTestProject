@@ -5,15 +5,15 @@ test('Сообщить название месяца по номеру 0', () =>
 });
 
 test('Сообщить название месяца по номеру 1', () => {
-    expect(nameMonth(1)).toBe("Январь");
+    expect(nameMonth(1)).toBe('Январь');
 });
 
 test('Сообщить название месяца по номеру 2', () => {
-    expect(nameMonth(2)).toBe("Февраль");
+    expect(nameMonth(2)).toBe('Февраль');
 });
 
 test('Сообщить название месяца по номеру 12', () => {
-    expect(nameMonth(12)).toBe("Декабрь");
+    expect(nameMonth(12)).toBe('Декабрь');
 });
 
 test('При вводе ошибочного числа вернет undefined', () => {
@@ -21,5 +21,5 @@ test('При вводе ошибочного числа вернет undefined',
 });
 
 test('При вводе ошибочного числа вернет undefined', () => {
-    expect(nameMonth("ввв")).toBeUndefined();
+    expect(nameMonth('ввв')).toBeUndefined();
 });

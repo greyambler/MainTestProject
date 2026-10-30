@@ -1,4 +1,4 @@
 module.exports = {
-    testEnvironment: 'jsdom',
-     collectCoverage: true,
+  testEnvironment: "jsdom",
+  collectCoverage: true,
 };

@@ -1,5 +1,5 @@
 function isHiddenButton(text) {
-    return text === ''
+    return text === '';
 }
 
 module.exports = isHiddenButton;

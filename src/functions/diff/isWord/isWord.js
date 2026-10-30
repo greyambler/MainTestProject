@@ -1,8 +1,8 @@
 function isWor(str) {
-    if (str.indexOf(" ") == -1) {
-        return true
+    if (str.indexOf(' ') == -1) {
+        return true;
     } else {
-        return false
+        return false;
     }
 }
 

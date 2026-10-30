@@ -1,5 +1,4 @@
 function arithmeticMean(inputNumber) {
-
     if (inputNumber !== null) {
         let sum = 0;
         let count = 0;
@@ -15,6 +14,5 @@ function arithmeticMean(inputNumber) {
     } else {
         return undefined;
     }
-
 }
 module.exports = arithmeticMean;

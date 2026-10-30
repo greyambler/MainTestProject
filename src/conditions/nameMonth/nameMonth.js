@@ -14,45 +14,49 @@
 //     console.log(`ifData = ${ifData}`)
 // } while (ifData);
 
-
 function nameMonth(inputNumber) {
-    if (inputNumber !== null || inputNumber < 13 || inputNumber > 0 || typeof inputNumber === 'number') {
+    if (
+        inputNumber !== null ||
+        inputNumber < 13 ||
+        inputNumber > 0 ||
+        typeof inputNumber === 'number'
+    ) {
         switch (+inputNumber) {
             case 1: {
-                return "Январь";
+                return 'Январь';
             }
             case 2: {
-                return "Февраль";
+                return 'Февраль';
             }
             case 3: {
-                return "Март";
+                return 'Март';
             }
             case 4: {
-                return "Апрель";
+                return 'Апрель';
             }
             case 5: {
-                return "Май";
+                return 'Май';
             }
             case 6: {
-                return "Июнь";
+                return 'Июнь';
             }
             case 7: {
-                return "Июль";
+                return 'Июль';
             }
             case 8: {
-                return "Август";
+                return 'Август';
             }
             case 9: {
-                return "Сентябрь";
+                return 'Сентябрь';
             }
             case 10: {
-                return "Октябрь";
+                return 'Октябрь';
             }
             case 11: {
-                return "Ноябрь";
+                return 'Ноябрь';
             }
             case 12: {
-                return "Декабрь";
+                return 'Декабрь';
             }
         }
     } else {

@@ -1,7 +1,7 @@
 function objectUser() {
     const user = {
-        name: 'John'
-    }
+        name: 'John',
+    };
 
     return user;
 }

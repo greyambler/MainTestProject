@@ -5,13 +5,28 @@
   "main": "jest.config.js",
   "scripts": {
     "test": "jest",
-    "test:coverage": "jest --coverage"
+    "test:coverage": "jest --coverage",
+    "start": "live-server",
+    "format": "prettier --write ./src",
+    "lint": "eslint ./src",
+    "slint": "eslint ./src --fix",
+    "prepare": "husky"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@eslint/js": "^9.39.5",
+    "eslint": "^9.39.5",
+    "globals": "^17.13.0",
+    "husky": "^9.1.7",
     "jest": "^30.5.2",
-    "jest-environment-jsdom": "^30.5.2"
-  }
+    "jest-environment-jsdom": "^30.5.2",
+    "lint-staged": "^16.4.0",
+    "live-server": "^1.2.2",
+    "prettier": "3.9.10"
+  },
+    "lint-staged": {
+      "src/**/*.js": "eslint"
+    }
 }

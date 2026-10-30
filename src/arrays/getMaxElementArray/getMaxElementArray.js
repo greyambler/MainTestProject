@@ -7,7 +7,7 @@ function getMaxElementArray(arr) {
         if (minEl < item) {
             minEl = item;
         }
-    })
+    });
 
     return minEl;
 }

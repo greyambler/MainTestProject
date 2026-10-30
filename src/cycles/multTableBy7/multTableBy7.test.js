@@ -1,7 +1,6 @@
 const multTableBy7 = require('./multTableBy7');
 
-describe("Вывести таблицу умножения на 7", () => {
-
+describe('Вывести таблицу умножения на 7', () => {
     test('Вывести таблицу умножения на 7 * 1', () => {
         expect(multTableBy7(1)).toBe(7);
     });

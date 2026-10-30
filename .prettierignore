@@ -1,0 +1,4 @@
+node_modules/
+json-sever/
+build/
+yarn-error.log
